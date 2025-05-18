@@ -1,6 +1,6 @@
 import React from 'react'
-import Buttons from '@/app/components/Atoms/Buttons/page'
-import Cards from '@/app/components/Organismos/Cards/page'
+import Buttons from '@/app/components/Atoms/Buttons'
+import Cards from '@/app/components/Organismos/Cards'
 
 
 const Page = () => {

@@ -7,7 +7,7 @@ interface Indexprops{
 
 }
 
-const Page = ({title, link, color}:Indexprops) => {
+const Index = ({title, link, color}:Indexprops) => {
   return (
     <div className={ `flex justify-center items-center rounded-full text-white font-bold w-50 h-10 cursor-pointer hover:scale-120 transition-all duration-300' ${color}`}>
        <a href={link}>
@@ -17,4 +17,4 @@ const Page = ({title, link, color}:Indexprops) => {
   )
 }
 
-export default Page
+export default Index

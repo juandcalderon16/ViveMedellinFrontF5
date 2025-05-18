@@ -1,9 +1,9 @@
 import React from 'react'
-import Buttons from '@/app/components/Atoms/Buttons/page'
-import Cards from '@/app/components/Organismos/Cards/page'
-import { HeroTitle } from '@/app/components/Atoms/Titles/page'
+import Buttons from '@/app/components/Atoms/Buttons/index'
+import Cards from '@/app/components/Organismos/Cards/index'
+import { HeroTitle } from '@/app/components/Atoms/Titles/index'
 
-const Page = () => {
+const Index = () => {
   return (
     <div>
       <div className='flex justify-center items-center h-screen w-screen bg-gray-100'>
@@ -41,4 +41,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Index

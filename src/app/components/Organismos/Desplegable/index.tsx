@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from 'react';
-import Icon from '@/app/components/Atoms/Icon/page';
-import NavTitle from '@/app/components/Atoms/NavTitle/page'
+import Icon from '@/app/components/Atoms/Icon';
+import NavTitle from '@/app/components/Atoms/NavTitle/index'
 
-const Page = () => {
+const Index = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -30,4 +30,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default Index;

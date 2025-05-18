@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon from '@/app/components/Atoms/Icon/page'
+import Icon from '@/app/components/Atoms/Icon'
 
-const Page = () => {
+const Index = () => {
   return (
     <div>
       <nav
@@ -24,4 +24,4 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Index

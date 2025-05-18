@@ -1,10 +1,10 @@
 import React from 'react'
-import { HeroTitle } from '../../Atoms/Titles/page'
-import { MediumTitle } from '../../Atoms/Titles/page'
-import Buttons from '@/app/components/Atoms/Buttons/page'
-import Desplegable from '@/app/components/Organismos/Desplegable/page'
+import { HeroTitle } from '../../Atoms/Titles/index'
+import { MediumTitle } from '../../Atoms/Titles/index'
+import Buttons from '@/app/components/Atoms/Buttons'
+import Desplegable from '@/app/components/Organismos/Desplegable/index'
 
-const Page = () => {
+const Index = () => {
     return (
         <div className=' flex flex-col justify-start items-center w-80 h-[calc(100vh-84px)]  p-4  border-r-2 border-[#D9D9D9] '>
             <div >
@@ -24,4 +24,4 @@ const Page = () => {
     )
 }
 
-export default Page
+export default Index

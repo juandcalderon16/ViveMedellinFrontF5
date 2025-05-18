@@ -4,7 +4,7 @@ interface Indexprops {
     title: string;  
     link: string;
 }
-const Page = ({title ='Title', link='/'}: Indexprops) => {
+const Index = ({title ='Title', link='/'}: Indexprops) => {
   return (
     <Link href ={link}>
     <div className='h-20 flex text-bank3 justify-center items-center hover:text-bank2 cursor-pointer hover:border-b-2 hover:border-bank'>
@@ -16,4 +16,4 @@ const Page = ({title ='Title', link='/'}: Indexprops) => {
   )
 }
 
-export default Page
+export default Index

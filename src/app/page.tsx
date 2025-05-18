@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '@/app/components/Organismos/Navbar/page'
-import CajaComentarios from '@/app/components/Organismos/CajaComentarios/page'
-import Vertical from '@/app/components/Organismos/Vertical/page'
+import Navbar from '@/app/components/Organismos/Navbar/index'
+import CajaComentarios from '@/app/components/Organismos/CajaComentarios/index'
+import Vertical from '@/app/components/Organismos/Vertical/index'
 
-const page = () => {
+const Index = () => {
   return (
     <div >
       <Navbar />
@@ -15,4 +15,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Index
